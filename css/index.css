@@ -1,0 +1,431 @@
+
+#head{
+    font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item {
+	height: 100vh;
+}
+.back{
+    background-image: url(../img/background.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.navbar-inverse {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-size: 40px;
+	padding: 40px 15px;
+	font-weight: 900;
+}
+.nav.navbar-nav.navbar-right {
+	margin: 25px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+	text-transform: uppercase;
+}
+.banner {
+    background-image: url(../img/Colegio1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+    
+}
+.banner2 {
+    background-image: url(../img/Colegio2.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.banner3 {
+    background-image: url(../img/Colegio5.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.banner2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.carousel-caption {
+	padding-bottom: 250px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #292A7D;
+}
+.carousel-caption a {
+	background: #292A7D;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+    text-decoration: none;
+}
+
+.carousel-caption2 {
+    background-image: url(../img/FondoC1.jpg);
+	padding-bottom: 250px;
+	font-family: poppins;
+    padding: 20px;
+   
+    
+}
+.carousel-caption2 h2 {
+	font-size: 70px;
+	font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-indicators .active {
+	background-color: #292A7D;
+	border-color: #292A7D;
+}
+
+/* botones menu */
+
+.nav_link{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+.nav_link::after{
+    content: '';
+    position: absolute;
+    left: 0;bottom: 0;
+    width: 100%;height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+.nav_link:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* botones incio */
+.boton{
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #292A7D;
+    text-decoration: none;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    margin: 0 5px;
+}
+
+.efecto{
+    display: inline-block;
+    transform: perspective(1px) translate(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.efecto:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #131313;
+    transform: scaleX(0);
+    transform-origin: 100% 50%;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.efecto:hover{
+    color: white;
+}
+
+.efecto:hover:before{
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.boton2{
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #292A7D;
+    text-decoration: none;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.efecto2{
+    display: inline-block;
+    transform: perspective(1px) translate(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.efecto2:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #131313;
+    transform: scaleX(0);
+    transform-origin: 100% 50%;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.efecto2:hover{
+    color: white;
+}
+
+.efecto2:hover:before{
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+#ht{
+    margin-left: 2%;
+    font-weight: 780;
+    font-family:  sans-serif;
+    color: rgba(121, 103, 22, 0.849);
+}
+.contect{
+    width: 100%;
+    display: flex;
+    max-width: 1650px;
+}
+
+.frecuente{
+    display: flex;
+    width: 600px;
+    height: auto;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgba(163, 151, 141, 0.555);
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.frecuente:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5%);
+    border: solid 2px black;
+}
+
+.frecuente img{
+    width: 150px;
+    height: 120px;
+    margin: 20px;
+}
+
+.textos{
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1.3px;
+    font-weight: bold;
+}
+.textos h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Footer */
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.grupo-1{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+    height: 200px;
+}
+.box-t h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.box-t p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.box-r h2{
+    color: #fff;
+}
+.red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.red-social a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 350px;
+	}
+	.carousel-caption h2 {
+		font-size: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+    .carousel-inner{
+        height: 400px;
+    }
+
+	.navbar-inverse .navbar-brand {
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		padding-bottom: 120px;
+        margin-bottom: 50%;
+	}
+	.carousel-caption h2 {
+		font-size: 25px;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 10px 25px;
+	}
+    .carousel-caption2 {
+        height: 300px;
+    }
+    .carousel-caption2 h2{
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width: 625px) {
+    .grupo-1{
+        display:block;
+        float: none;
+    }
+    .box-t{
+        margin-left: 10px;
+    }
+    .box-r{
+        margin-left: 10px;
+    }
+    .carousel-caption {
+        margin-bottom: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel-caption2 h2{
+       font-size: 50px;
+       margin-bottom: 20px;
+    } 
+    .carousel-caption {
+        margin-bottom: 80%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .carousel-caption2 h2{
+       font-size: 35px;
+       margin-bottom: 20px;
+    } 
+    .carousel-caption2 {
+        height: 250px;
+    }
+    .carousel-caption {
+        margin-bottom: 80%;
+    }
+}
+
+

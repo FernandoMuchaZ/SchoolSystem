@@ -1,0 +1,76 @@
+/* Estilo para la lista desplegable personalizada */
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+  }
+  
+  /* Estilo para el selector original */
+  .custom-select select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none; /* Elimina los estilos de apariencia predeterminados del navegador */
+    background-image: url('arrow-down.png'); /* Agrega una imagen de flecha hacia abajo */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    cursor: pointer;
+  }
+  
+  /* Estilo para la flecha */
+  .custom-select::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #555; /* Color de la flecha */
+    transform: translateY(-50%);
+  }
+
+  .custom-select:hover {
+    background-color:cadetblue;
+    color: #fff;
+  }
+
+  body{
+      background-color: #E1EAE6;
+    
+  }
+
+  /* Estilo para la opción seleccionada */
+.custom-select select option:checked {
+    background-color: #3498db;
+    color: white;
+  }
+  .Lista{
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid #3AB87F;
+  }
+ .Despegable{
+    margin: 20px;
+  
+  }
+
+  .cardPadre {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+  }
+
+  .card-body{
+    background-color: #3AB87F;
+  }
+  .card{
+    border: 2px solid #3AB87F;
+  }
+
+  .btn .btn-primary{
+    background-color: #555;
+  }

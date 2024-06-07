@@ -1,0 +1,134 @@
+
+
+.containers{
+    width: 100%;
+    height: 600px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.containers2{
+    width: 60%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 22rem;
+    column-gap: 20px;
+    row-gap: 150px;
+    color: black;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.items{
+    color: rgb(255, 255, 255);
+    font-family: century;
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+.items:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.item1{
+    background-image: url(../img/servicio1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item2{
+    background-image: url(../img/servicio2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item3{
+    background-image: url(../img/servicio3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item4{
+    background-image: url(../img/servicio4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.id{
+    font-size: 1em;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -40px;
+    cursor: default;
+    transition: .3s ease;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.id img{
+    width: 65px;
+    height: 65px;
+    margin: 0px 60px;
+}
+
+.id h2{
+    font-family: "appleghotic";
+}
+
+.id p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.id:hover{
+    transform: translateY(10px)scale(.9);
+}
+
+.separacion{
+    text-align: center;
+}
+
+.separacion img{
+    width: 65px;
+    height: 65px;
+}
+
+@media(max-width: 1000px){
+    .containers{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .containers2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 600px){
+    .containers{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .containers2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

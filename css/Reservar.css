@@ -1,0 +1,33 @@
+.Rgenerada,th{
+    border: solid 2px white;
+    width: 80%;
+}
+.Contenedor{
+    width: 80%;
+    height: 380px;
+    background: linear-gradient(#8E8ACE, #838389);
+    position: relative;
+    left: 130px;
+    padding: 30px;
+}
+.Contenedor,td{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.Contenedor,th{
+    padding: 0px;
+    margin: 0px;
+}
+.title{
+    color: black;
+}
+.Boleta{
+    color: black;
+}
+.Boleta input{
+    background-color: #AEA3A2;
+}
+.Boleta input:hover{
+    background-color: #CC736B;
+}

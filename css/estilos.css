@@ -1,0 +1,518 @@
+
+
+body{
+    background: #d5dee8;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset{
+    padding: 30px;
+    margin: 20px;
+}
+
+header{
+    background-image: url(../img/Colegio1.jpg);
+}
+
+button{
+    cursor: pointer;
+    text-align: right;
+}
+button:hover{
+    background: gray
+}   
+
+img{
+    width: 200px;
+    height: 100px; 
+}
+
+.hotel{
+    width: 20%;
+    height: 40px;
+    padding: 5px;
+    margin-left: 2%;
+    font-family: Tiny;
+    color: white;
+}
+.hotel .fa-solid.fa-bars{
+    display: none;
+}
+.menu{
+    width: 44%;
+    background-color:rgba(39, 48, 50, 0.7);
+    list-style: none;
+    margin: 0;
+    padding:0;
+    margin-left: 30%;
+    max-width: 550px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+
+    background: #568A9D;
+}
+
+.boton{
+    margin-top: 20px;
+    margin-left: 80%;
+    position: absolute;
+}
+
+.t1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.t2{
+    color: white;
+}
+
+
+.fcontent{
+    display: flex;
+}
+
+.formu{
+    width: 27%;
+    float: left;
+    padding: 20px;
+}
+
+#field{
+    background-color: rgba(192, 192, 192, 0.4);
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.mapa{
+    float:left;
+}
+
+.textfa{
+    display: flex;
+    width: 150px;
+}
+
+.textforum{
+    padding: 15px;
+    text-align: left; 
+    background-color:whitesmoke;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 55px;
+    border: solid 5px black;
+}
+
+.razones{
+    width: 70%;
+    padding: 15px;
+    text-align: left; 
+    background-color:rgba(55, 177, 120, 0.539);
+    border: solid 2px black;
+    margin-left: 20px;
+}
+
+.razones img{
+    width: 200px;
+    height: 140px;
+    border: solid 2px black;
+}
+
+.copyr{
+    width: auto;
+    height: 30px;
+    text-align: left; 
+    background-color:gray;
+    border: solid 2px black;
+}
+
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 165, 0, 0);
+}
+
+.card img{
+    width: 100%;
+    height: 50%;
+    border: solid 2px black;
+}
+
+.card{
+    width: 50%;
+    margin: 10px 10px 30px 30px;
+    background-color: rgba(192, 192, 192, 0.717);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);;
+    color: black;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.514);
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-family: Raleway;
+    border-color: black;
+    border: solid;
+}
+.card a:hover{
+    background: rgb(108, 70, 70);
+    text-decoration: none;
+    color: black;
+}
+
+#cards2{
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 165, 0, 0);
+}
+
+.card2 img{
+    width: 100%;
+    height: 50%;
+    border: solid 2px black;
+}
+
+.card2{
+    width: 27%;
+    margin: 10px 10px 30px 30px;
+    background-color: rgba(192, 192, 192, 0.717);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);;
+    color: black;
+}
+.card2:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.514);
+}
+.card2 a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-family: Raleway;
+    border-color: black;
+    border: solid;
+}
+.card2 a:hover{
+    background: rgb(108, 70, 70);
+    text-decoration: none;
+    color: black;
+}
+
+#text{
+    resize: none;
+    border: 2px solid black;
+}
+
+input[type=text], input[type=email]{
+    border: 2px solid black;
+}
+
+.backh{
+    background-image: url(../img/Fondo-H.webp);
+    background-size: cover;
+}
+#hindividual img{
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;
+    border-radius: 15px;
+}
+#textindividual{
+    font-family: Calibri;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+#textindividual hr{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#textindividual h2{
+    font-family: Candara;
+}
+#textindividual li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.desh{
+    display: flex;
+}
+#res{
+    background-color: rgba(205, 139, 150, 0.831);
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 8%;
+    height: 40%;
+    border: solid 4px black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    padding: 2%;
+}
+#res button{
+    height: 40px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);;
+}
+#pxn{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(229, 136, 50);
+    border: solid 2px black;
+    border-radius: 20%;
+}
+
+.backl{
+    background-image: url(../img/Fondo\ 1.jpg);
+    background-size: cover;
+}
+
+.formulog{
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+.formulog1{
+    width: 50%;
+    float: right;
+    padding: 10px;
+    margin-right: 5%;
+}
+#field2{
+    background-color: rgba(98, 134, 212, 0.779);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#field2 h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#field2  input[type=email], input[type=password]{
+    width: 90%;
+    height: 30px;
+    margin-left: 3%;
+}
+#field2 button[type=button]{
+    height: 40px;
+    margin-left: 45%;
+}
+#field2 button[type=button]:hover{
+    background: green;
+}
+
+.backR{
+    background-image: url(../img/Fondo3.jpg);
+    background-size: cover;
+}
+.contened1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#field3{
+    background-color: rgb(82, 119, 200);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#field3 h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+#field3 button[type=submit]{
+    height: 40px;
+    margin-left: 45%;
+}
+#field3 button[type=submit]:hover{
+    background: green;
+}
+#lb{
+    width: 30%;
+    display: block;
+    font-family: calibri;
+    font-weight: bold;
+}
+#f3{
+    width: 70%;
+    height: 20px;
+    border: none;
+    display: block;
+    margin-left: 5%;
+}
+.contened{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.reserv{
+    width: 80%;
+    background: linear-gradient(45deg,#8E8ACE, #838389);
+    padding: 30px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.reserv label, .reserv h3{
+    color: #fff;
+}
+.btnReservar{
+    padding: 10px;
+    background-color: #AEA3A2;
+    margin-left: 45%;
+}
+.btnReservar:hover{
+    background-color: #CC736B;
+}
+.lsit{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.reserv h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+#sl{
+    width: 100%;
+    height: 30px;
+}
+.fgroup{
+    display: flex;
+    flex-direction: column;
+} 
+.reserv input[type=text]{
+    height: 30px;
+}
+.reserv input[type=email]{
+    width: 280px;
+}
+
+/* .reserv input[type=submit]{
+    height: 40px;
+    text-align: center;
+    margin-left: 45%;
+    border-radius: 5px;
+    color: black;
+}
+.reserv input[type=submit]:hover{
+    background: green;
+} */
+
+.reserv label{
+    font-family: century gothic;
+}
+.textres{
+    margin-left: 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+}
+.copyright-container{
+    max-width: 1900px;
+    margin: auto;
+    text-align: center;
+    padding: 0 40px;
+    background-color: #d5dee8;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif
+}
+
+.copyright-container p{
+    margin-top: 5px;
+    color: #7a7a7a;
+}
+
+.copyright-container hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+
+
+/* Estilo para el enlace desplegable */
+.dropbtn {
+
+    color: #9B9B9E;
+    padding: 12px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  
+  /* Estilo para el contenedor desplegable */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Estilo para el contenido desplegable (oculto por defecto) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222230;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Estilo para los enlaces dentro del contenido desplegable */
+  .dropdown-content a {
+    color: #7a7a7a;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Cambia el color de fondo del enlace cuando se pasa el ratón por encima */
+  .dropdown-content a:hover {
+    background-color: #0f0f0f41;
+    color: #fff;
+  }
+  
+  /* Mostrar el contenido desplegable cuando se pasa el ratón sobre el enlace */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+  
+  
+  
+  
+  
+  

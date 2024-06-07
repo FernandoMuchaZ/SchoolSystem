@@ -1,0 +1,22 @@
+#tbR{
+    background: white;
+    margin-left: 10px;
+    border: solid black 3px;
+}
+#tbR td{
+    padding: 10px;
+    border-right: 1px solid #000000;
+    border-top: 1px solid black;
+    
+}
+#tbR th{
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.ht2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,265 @@
+@media only screen and (max-width:1180px) {
+    .contect{
+        display: block;
+        flex-flow: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .frecuente{
+        display: inline-block;
+        width: 330px;
+        height: 200px;
+        text-align: center;
+    }
+    #cards{
+        display: flex;
+        flex-flow: wrap;
+
+    }
+    .card{
+        width: 70%;
+        height: 50%;
+    }
+    #cards2{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .card2{
+        width: 70%;
+        height: 50%;
+    }
+    .menu{
+        width: 80%;
+        height: 100%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+    }
+    .menu li{
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .menu li a:hover{
+        width: 92%;
+        background: #568A9D;
+    }
+    .hotel .fa-solid.fa-bars{
+        display: block;
+        float: right;
+        font-size: 30px;
+        background-color:rgba(39, 48, 50, 0.9);
+    }
+    header h2{
+        margin-top: 10%;
+    } 
+    .galeria{
+        width: 80%;
+    }
+    ul.slider{
+        width: 100%;
+    }
+    .fcontent{
+        display: block;
+    }
+    .formu{
+        width: 38%;
+        float: none;
+        padding: 10px;
+    }
+    .textf{
+        display: inline-block;
+    }
+    .textforum{
+        width: 80%;
+        padding: 10px;
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-top: 35px;
+    }
+    .mapa{
+        padding: 10px;
+        float: none;
+    }
+    .mapa iframe{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width:800px) {
+    .lsit{
+        display:inline-block;
+        justify-content: none;
+        padding: 0;
+    }
+    .lfil{
+        display: inline-block;
+    }
+    .lfilas{
+        display: inline-block;
+    }
+    .backR{
+        background-image: url(../img/Fondo\ 1.jpg);
+    }
+    header h2{
+        margin-top: 15%;
+    } 
+    .formu{
+        width: 340px;
+        float: none;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+ 
+    .flogin{
+        display: block;
+    }
+    .formulog{
+        width: 80%;
+        float: none;
+        display: inline-block;
+    }
+    .formulog1{
+        width: 80%;
+        float: none;
+        display: inline-block;
+        margin-right: 0;
+        margin-left: 5%;
+    }
+    .desh{
+        display: inline-block;
+    }
+    #res{
+        width: 80%;
+        margin-right: 0;
+        margin: auto;
+        height: 40%;
+    }
+    header h2{
+        margin-top: 25%;
+    } 
+}
+
+@media only screen and (max-width:400px) {
+    
+    .formulog1{
+        width: auto;
+        float: none;
+        padding: 10px;
+        margin-right: none;
+    }
+    #field3 button[type=submit]{
+        margin-left: 20%;
+    }
+    #lb{
+        width: 30%;
+        display: flex;
+    }
+    #f3{
+        width: 100%;
+        display: flex;
+    }
+    .contened{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    header h2{
+        margin-top: 35%;
+    } 
+}
+@media only screen and (max-width:350px) {
+    header h2{
+        margin-top: 48%;
+    } 
+    .reserv{
+        padding: 10px;
+    }
+    #sl{
+        width: auto;
+        height: 30px;
+    }
+    .reserv input[type=email]{
+        width: auto;
+    }
+    .contect{
+        width: auto;
+        display: inline-block;
+        max-width: 1650px;
+    }
+    
+    .frecuente{
+        flex-flow: wrap;
+        width: auto;
+        height: 280px;
+        overflow: hidden;
+    }
+    .frecuente figure{
+        margin: auto;
+    }
+    .frecuente figure img{
+        width: 200px;
+        height: 150px;
+        margin-top: 5%;
+    } 
+    .textos{
+        margin: auto;
+        text-align: center;
+        padding-left: 5%;
+        padding-bottom: 3%;
+    }
+    
+    .formu{
+        width: auto;
+        height: auto;
+        padding: 10px;
+        margin: 0;
+    }
+    .textforum{
+        width: auto;
+        padding: 5px;
+        margin-left: 6%;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    #field{
+        width: auto;
+        padding: 10px;
+    }
+    #field input[type=text], input[type=email]{
+        width: auto;
+    }
+    #text{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .lfil{
+        display:inline-block;
+        justify-content: none;
+        padding: 0;
+    }
+    .formulog{
+        width: auto;
+        padding: 0;
+        margin: auto;
+    }
+    .contened1{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    #lb{
+        width: auto;
+    }
+    .formulog1{
+        width: auto;
+        margin-left: 0;
+        padding: 0;
+        margin: auto;
+    }
+}
